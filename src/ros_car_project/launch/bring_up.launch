@@ -1,0 +1,16 @@
+<launch>
+  <!--serial communication between arduino and pc via usb /-->
+  <node name="rosserial_node" pkg="rosserial_python" type="serial_node.py" output="screen">
+    <param name="port" value="/dev/ttyUSB0" />
+    <param name="baud" value="57600" />
+  </node>
+
+
+  <node name="base_node" pkg="ros_car_project" type="base_node">
+    <param name="angular_scale" type="double" value="0.85" />
+    <param name="linear_scale" type="double" value="1.0" />
+  </node>
+
+  
+
+</launch>

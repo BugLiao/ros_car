@@ -1,0 +1,5 @@
+<launch>
+  <node name="hokuyo_node"          pkg="hokuyo_node"  type="hokuyo_node" output="screen"/>
+  
+  <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="0.0 0 0.0 0 0 0  /base_link /laser  100"/>
+</launch>

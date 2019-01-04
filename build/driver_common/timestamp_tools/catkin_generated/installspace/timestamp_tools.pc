@@ -1,0 +1,8 @@
+prefix=/home/ros/ros_car/install
+
+Name: timestamp_tools
+Description: Description of timestamp_tools
+Version: 1.6.8
+Cflags: -I/home/ros/ros_car/install/include
+Libs: -L/home/ros/ros_car/install/lib 
+Requires: roslib roscpp

@@ -1,0 +1,8 @@
+prefix=/home/ros/ros_car/devel
+
+Name: timestamp_tools
+Description: Description of timestamp_tools
+Version: 1.6.8
+Cflags: -I/home/ros/ros_car/src/driver_common/timestamp_tools/include
+Libs: -L/home/ros/ros_car/devel/lib 
+Requires: roslib roscpp
