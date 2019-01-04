@@ -1,0 +1,38 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "C++",
+			"type": "gdb",
+			"request": "launch",
+			"target": "${file}",
+			"cwd": "${workspaceRoot}"
+		},
+		{
+			"name": "C++ (remote)",
+			"type": "gdb",
+			"request": "launch",
+			"target": "dev${relativeFile}",
+			"cwd": "${workspaceRoot}",
+			"ssh": {
+				"host": "192.168.0.166",
+				"user": "robot",
+				"keyfile": "/home/ros/.ssh/id_rsa",
+				"cwd": "/home/robot/ros_car"
+			}
+		},
+		{
+			"name": "Python",
+			"type": "python",
+			"request": "launch",
+			"stopOnEntry": true,
+			"pythonPath": "${config:python.pythonPath}",
+			"program": "${file}",
+			"debugOptions": [
+				"WaitOnAbnormalExit",
+				"WaitOnNormalExit",
+				"RedirectOutput"
+			]
+		}
+	]
+}

@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find ros_car_project)/launch/lidar.launch"/>
+    <include file="$(find ros_car_project)/launch/gmapping.launch"/>
+    <include file="$(find ros_car_project)/launch/move_base.launch"/>
+</launch>
