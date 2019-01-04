@@ -1,8 +1,0 @@
-prefix=/home/ros/ros_car/install
-
-Name: ros_car_project
-Description: Description of ros_car_project
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/ros/ros_car/install/lib 
-Requires: 

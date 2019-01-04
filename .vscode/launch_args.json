@@ -1,8 +1,0 @@
-{
-	"remoteArgs": {
-		"host": "192.168.0.166",
-		"user": "robot",
-		"keyfile": "/home/ros/.ssh/id_rsa",
-		"cwd": "/home/robot/ros_car"
-	}
-}

@@ -1,2 +1,0 @@
-driver_common/driver_base:driver_common/driver_common:driver_common/timestamp_tools:hokuyo_node:ros_car_project
--DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/ros/ros_car/devel -DCMAKE_INSTALL_PREFIX=/home/ros/ros_car/install -G Unix Makefiles
